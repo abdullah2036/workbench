@@ -1,0 +1,26 @@
+# Challenge files & solve artifacts — keep the repo tools-only
+_work/
+*.chal
+*.bin
+*.pcap
+*.pcapng
+*.raw
+*.mem
+*.vmem
+*.dmp
+extracted/
+_extracted/
+output/
+loot/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp

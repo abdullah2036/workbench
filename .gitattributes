@@ -1,0 +1,5 @@
+# These run on Kali (Linux). Force LF so they never get CRLF'd on Windows edits
+# (CRLF gives "bad interpreter: /usr/bin/env bash^M" errors).
+*.sh   text eol=lf
+*.py   text eol=lf
+*.md   text eol=lf
